@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabeçalho {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    margin: 0 5%;
+    height: auto;
+    width: 30px;
+}
+
+#cabeçalho a {
+    margin: 0 5%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#pagina-inicial {
+    background-color: #4aff6f;
+    padding: 15% 25%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: xx-large;
+}
