@@ -1,3 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabeçalho {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    margin: 0 5%;
+    height: auto;
+    width: 30px;
+}
+
+#cabeçalho a {
+    margin: 0 5%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
 
 body {
     margin: 0;
@@ -7,10 +38,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
-    padding: 20px;
 }
 
-h1 {
+#title {
     background-color: white;
     color: #001f3f; /* azul escuro */
     text-align: center;
@@ -34,8 +64,7 @@ p {
     font-size: 16px;
 }
 
-
-img {
+.imgPlanet {
     display: block;
     margin: 30px auto;
     border-radius: 10px;

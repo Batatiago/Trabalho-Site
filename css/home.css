@@ -6,7 +6,7 @@
 
 #cabeçalho {
     background-color: black;
-    padding: 30px;
+    padding: 3%;
     color: white;
     display: flex;
     align-items: center;
@@ -27,10 +27,11 @@
     color: aliceblue;
     font-weight: bold;
     font-family: Arial, sans-serif;
+    font-size: large;
 }
 
 #pagina-inicial {
-    background-color: #4aff6f;
+    background-color: #001f3f;
     padding: 15% 25%;
     text-align: center;
     font-family: Arial, sans-serif;

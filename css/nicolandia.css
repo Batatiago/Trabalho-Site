@@ -1,9 +1,40 @@
 /*A classe (começa sempre com um ponto!!!) pode ser 
 referenciada no HTML. Para referenciar essa class abaixo
 é só escrever class="titulo" dentro de uma tag!!!*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body {
-  background-image: url("ceu-azul.jpg");   
+#cabeçalho {
+    background-color: black;
+    padding: 1%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    margin: 0 5%;
+    height: auto;
+    width: 30px;
+}
+
+#cabeçalho a {
+    margin: 0 5%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+body {   
+  background-image: url("../img/img_nicolandia/ceu-azul.jpg");
   background-attachment: fixed; 
   background-size: cover; 
   background-position: center center; 
@@ -20,28 +51,13 @@ body {
     0px 0px 0 #000;
 }
 
-.Header {
-    margin-top: -90px;
-    margin-left: 15%;
-    padding: 15px;
-    position: fixed;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #4a4a4a;
-    border-radius: 15px;
-}
-
 .Bloco {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #5e6693;
-    border-radius: 15px;
-}
-
-div {
     margin: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    background-color: #333a66;
+    background-color: #001f3f;
     border-radius: 15px;
+    
 }
 
 .Imagens {
