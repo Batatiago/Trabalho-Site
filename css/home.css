@@ -30,6 +30,11 @@
     font-size: large;
 }
 
+#cabeçalho a:hover {
+    color: yellow;
+    font-size: 18px; 
+}
+
 #pagina-inicial {
     background-color: #001f3f;
     padding: 15% 25%;

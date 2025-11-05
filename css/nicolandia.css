@@ -33,6 +33,11 @@ referenciada no HTML. Para referenciar essa class abaixo
     font-size: large;
 }
 
+#cabeçalho a:hover {
+    color: yellow;
+    font-size: 18px; 
+}
+
 body {   
   background-image: url("../img/img_nicolandia/ceu-azul.jpg");
   background-attachment: fixed; 
