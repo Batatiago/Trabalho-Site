@@ -1,38 +1,41 @@
-.background{
-    /* background-image: url("img/BandeiraBrasil.webp"); */
-    /* background-size: cover; */
-    background-color: rgb(71, 71, 226);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  box-sizing: border-box;
-  z-index: 1000;
-  gap: 30px;
-  text-shadow: 2px 2px black;
+body {
+    background-color: #001f3f;
+}
+#cabeçalho {
+    background-color: black;
+    padding: 3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
-.footer {
-  position: bottom;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  box-sizing: border-box;
-  z-index: 1000;
-  gap: 30px;
+#logo {
+    margin: 0 5%;
+    height: auto;
+    width: 30px;
+}
+
+#cabeçalho a {
+    margin: 0 5%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+#cabeçalho a:hover {
+    color: yellow;
+    font-size: 18px; 
 }
 
 .home {
@@ -51,7 +54,8 @@
     text-align: center;
     text-decoration: none;
     font-size: 100px;
-    color: black;
+    color: white;
+    
 }
 
 .boxText{

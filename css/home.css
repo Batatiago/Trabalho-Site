@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #001f3f;
+}
+
 #cabeçalho {
     background-color: black;
     padding: 3%;
@@ -32,15 +36,21 @@
 
 #cabeçalho a:hover {
     color: yellow;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 #pagina-inicial {
-    background-color: #001f3f;
-    padding: 15% 25%;
+    padding: 2% 2%;
     text-align: center;
     font-family: Arial, sans-serif;
     color: aliceblue;
     font-weight: bolder;
     font-size: xx-large;
+}
+
+#map-image {
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    border-radius: 150px 75px;
 }
