@@ -83,8 +83,14 @@ p {
 }
 
 .imagem-media {
-    width: 60%;
-    max-width: 700px;
+    width: 55%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-pequena {
