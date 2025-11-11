@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoologico</title>
-    <link rel="stylesheet" href="css/ZooStyle.css">
-    <link rel="icon" sizes="32x32" href="./img/img_zoologico/ReptileEye2.webp">
-</head>
-<header id="cabeçalho">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zoologico</title>
+        <link rel="stylesheet" href="css/ZooStyle.css">
+        <link rel="icon" sizes="32x32"
+            href="./img/img_zoologico/ReptileEye2.webp">
+    </head>
+    <header id="cabeçalho">
         <div id="logo">
             <img src="img/img_home/brasao-do-distrito-federal.png"
                 alt="logo do Distrito Federal" width="100" height="100">
         </div>
-        <a href="index.html">Início</a>|
-        <a href="https://ouvidoria.df.gov.br/canal-atendimento-162" target="_blank">Contato</a>|
-        <a href="nicolandia.html">Nicolândia</a>|
-        <a href="planetario.html">Planetário</a>|
-        <a href="zoologico.html">Zoológico</a>|
-        <a href="catedral.html">Catedral</a>
+
+        <input type="checkbox" id="menuFlutuanteCheckbox">
+        <label for="menuFlutuanteCheckbox" id="menu-overlay"></label>
+        <label for="menuFlutuanteCheckbox" id="menuFlutuante">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <nav id="linksHeader">
+            <a href="index.html">Início</a>
+            <a href="https://ouvidoria.df.gov.br/canal-atendimento-162"
+                target="_blank">Contato</a>
+            <a href="nicolandia.html">Nicolândia</a>
+            <a href="planetario.html">Planetário</a>
+            <a href="zoologico.html">Zoológico</a>
+            <a href="catedral.html">Catedral</a>
+            <a href="torreTV.html">Torre de TV</a>
+        </nav>
     </header>
-<body class="background">
-    <br><br>
-    <h1 class="zoo-title" >Zoologico de Brasília</h1>
-    <div id="boxAnimals">
-        <a id="linkAves" href="./Zoologico/Aves.html">
-            <div class="boxAves">
-                <img class="boxImageAves" src="./img/img_zoologico/Hawk.png" alt="">
-                <p class="boxText"> Aves </p>
-            </div></a>
+    <body class="background">
+        <br><br>
+        <h1 class="zoo-title">Zoologico de Brasília</h1>
+        <div id="boxAnimals">
+            <a id="linkAves" href="./Zoologico/Aves.html">
+                <div class="boxAves">
+                    <img class="boxImageAves" src="./img/img_zoologico/Hawk.png"
+                        alt>
+                    <p class="boxText"> Aves </p>
+                </div></a>
 
-        <a id="linkMamiferos" href="./Zoologico/Mamiferos.html">
-            <div class="boxMammals">
-                <p class="boxText"> Mamiferos </p>
-                <img class="boxImageMammals" src="./img/img_zoologico/LoboGuara.png" alt="">
-            </div></a>
+            <a id="linkMamiferos" href="./Zoologico/Mamiferos.html">
+                <div class="boxMammals">
+                    <p class="boxText"> Mamiferos </p>
+                    <img class="boxImageMammals"
+                        src="./img/img_zoologico/LoboGuara.png" alt>
+                </div></a>
 
-        <a id="linkReptiles" href="./Zoologico/Reptiles.html">
-            <div class="boxReptiles">
-                <img class="boxImageReptiles" src="./img/img_zoologico/RainbowBoaRaw.webp" alt="">
-                <p class="boxText"> Repteis </p>
-            </div></a>
+            <a id="linkReptiles" href="./Zoologico/Reptiles.html">
+                <div class="boxReptiles">
+                    <img class="boxImageReptiles"
+                        src="./img/img_zoologico/RainbowBoaRaw.webp" alt>
+                    <p class="boxText"> Repteis </p>
+                </div></a>
 
-        <a id="linkAnfibios" href="./Zoologico/Anfibios.html">
-            <div class="boxAmphibious">
-                <p class="boxText"> Amfibios </p>
-                <img class="boxImageAmphibious" src="./img/img_zoologico/SapoFlecha.png" alt="">
-            </div></a>
-    
-        <a id="linkArtropodes" href="./Zoologico/Artropodes.html">
-            <div class="boxArthropods">
-                <img class="boxImageArthropods" src="./img/img_zoologico/Tatuzinho.png" alt="">
-                <p class="boxText"> Artrópode </p>
-            </div></a>
+            <a id="linkAnfibios" href="./Zoologico/Anfibios.html">
+                <div class="boxAmphibious">
+                    <p class="boxText"> Amfibios </p>
+                    <img class="boxImageAmphibious"
+                        src="./img/img_zoologico/SapoFlecha.png" alt>
+                </div></a>
 
-        <a id="linkBorboletas" href="./Zoologico/Borboletas.html">
-            <div class="boxButterflies">
-                <p class="boxText"> Borboletas </p>
-                <img class="boxImageAmphibious" src="./img/img_zoologico/BlueMorph.png" alt="">
-            </div></a>
-    </div>
-    
-    <!--
+            <a id="linkArtropodes" href="./Zoologico/Artropodes.html">
+                <div class="boxArthropods">
+                    <img class="boxImageArthropods"
+                        src="./img/img_zoologico/Tatuzinho.png" alt>
+                    <p class="boxText"> Artrópode </p>
+                </div></a>
+
+            <a id="linkBorboletas" href="./Zoologico/Borboletas.html">
+                <div class="boxButterflies">
+                    <p class="boxText"> Borboletas </p>
+                    <img class="boxImageAmphibious"
+                        src="./img/img_zoologico/BlueMorph.png" alt>
+                </div></a>
+        </div>
+
+        <!--
     <img class="SelectionBanner" src="img/Sky.webp" alt="Aves">
     <img class="SelectionBanner" src="img/GreenHills.webp" alt="Mamiferos">
     <img class="SelectionBanner" src="img/DesertHills.webp" alt="Reptiles">
@@ -68,9 +88,9 @@
     <img class="SelectionBanner" src="img/FallenLog.webp" alt="Arthropods">
     <img class="SelectionBanner" src="img/DewLeaf.webp" alt="Butterflies">
     -->
-    
-</body>
-<footer class="footer">
-    <a href="zoologico.html" class="home">Home</a>
-</footer>
+
+    </body>
+    <footer class="footer">
+        <a href="zoologico.html" class="home">Home</a>
+    </footer>
 </html>
