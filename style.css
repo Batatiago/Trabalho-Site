@@ -174,7 +174,7 @@ body {
 
 #title {
     background-color: white;
-    color: #001f3f; /* azul escuro */
+    color: #001f3f;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -184,9 +184,9 @@ body {
 }
 
 
-p {
+.planetario-text {
     background-color: white;
-    color: #001f3f; /* texto azul escuro */
+    color: #001f3f; 
     padding: 15px;
     border-radius: 10px;
     max-width: 800px;
@@ -223,6 +223,12 @@ p {
 .imagem-pequena {
     width: 40%;
     max-width: 500px;
+    height: auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
 }
 
 
