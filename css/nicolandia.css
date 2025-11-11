@@ -56,13 +56,24 @@ body {
     0px 0px 0 #000;
 }
 
+.BlocoAtracao {
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background-color: #001f3f;
+    border-radius: 15px;
+}
+
 .Bloco {
     margin: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
     background-color: #001f3f;
     border-radius: 15px;
-    
+}
+
+.BlocoAtracao:hover {
+   border: 3px solid rgb(192, 243, 255);   
 }
 
 .Imagens {
