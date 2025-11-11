@@ -5,24 +5,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DF Checkpoints</title>
         <link rel="stylesheet" href="css/home.css">
-        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="img/img_home/favicon.png"
+            type="image/x-icon">
     </head>
     <header id="cabeçalho">
         <div id="logo">
-            <img src="img/brasao-do-distrito-federal.png"
+            <img src="img/img_home/brasao-do-distrito-federal.png"
                 alt="logo do Distrito Federal" width="100" height="100">
         </div>
-        <a href="index.html">Início</a>|
-        <a href="https://ouvidoria.df.gov.br/canal-atendimento-162" target="_blank">Contato</a>|
-        <a href="nicolandia.html">Nicolândia</a>|
-        <a href="planetario.html">Planetário</a>|
-        <a href="zoologico.html">Zoológico</a>
+
+        <input type="checkbox" id="menuFlutuanteCheckbox">
+        <label for="menuFlutuanteCheckbox" id="menu-overlay"></label>
+        <label for="menuFlutuanteCheckbox" id="menuFlutuante">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <nav id="linksHeader">
+            <a href="index.html">Início</a>
+            <a href="https://ouvidoria.df.gov.br/canal-atendimento-162"
+                target="_blank">Contato</a>
+            <a href="nicolandia.html">Nicolândia</a>
+            <a href="planetario.html">Planetário</a>
+            <a href="zoologico.html">Zoológico</a>
+            <a href="catedral.html">Catedral</a>
+            <a href="torreTV.html">Torre de TV</a>
+        </nav>
     </header>
     <body>
         <div id="pagina-inicial">
             <h1>Bem-vindo ao DF Checkpoints</h1>
             <br>
-            <img id="map-image" src="img/maps image.jpg" alt="maspImage">
+            <img id="map-image" src="img/img_home/maps image.jpg"
+                alt="maspImage">
             <p>Explore os principais pontos turísticos do Distrito Federal.</p>
-        </body>
-    </html>
+        </div>
+    </body>
+</html>
