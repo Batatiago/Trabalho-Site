@@ -1,0 +1,163 @@
+ .sobre{
+    background-color: #;
+
+ }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1e45;
+    color: #ffffff;
+}
+
+
+header {
+  background: -moz-linear-gradient(#173c75 #173c75);
+    background-image: url('https://visitebrasilia.com.br/images/galeria/25363/IMG-008.png');
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    padding: 80px 10px;
+}
+
+ 
+/* Container que organiza */
+.container {
+  display: flex;               /* coloca as caixas lado a lado */
+  background-color: #0b1e45;
+  justify-content: center;     
+  align-items: flex-start;     
+  gap: 30px;                  
+  flex-wrap: wrap;             
+  padding: 40px;
+}
+
+/* Estilo das caixinhas */
+.caixa {
+    background-color: #ffffff;
+  background: linear-gradient(135deg, #0c0f5f, #173c75);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  width: 400px;                /* largura fixa */
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.caixa:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(239, 237, 237, 0.3);
+}
+
+.caixa h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 5px;
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* empilha as caixas */
+    align-items: center;
+  }
+
+  .caixa {
+    width: 90%;
+  }
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav {
+    background-color: #0b1e45;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Seções */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Lista */
+.atracoes ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.atracoes li {
+    background-color: #3a3a3b;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #173c75;
+    border-radius: 5px;
+}
+
+/* Galeria */
+.container {
+    background-color: #eef4ff;
+}
+
+.container h2 {
+    color: #173c75;
+}
+
+.attraction {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.attraction img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #173c75;
+    transition: transform 0.3s;
+}
+
+.attraction img:hover {
+    transform: scale(1.05);
+}
+
+/* Localização */
+.localizacao iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+  color: white;
+}
+
+.localizacao {
+  color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0b1e45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
