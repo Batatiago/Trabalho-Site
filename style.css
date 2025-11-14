@@ -635,6 +635,7 @@ body {
   text-align: left;
   font-size: 25px;
   padding: 0 20px 0 120px;
+  color: black;
 }
 
 .BoxStandardRight {
@@ -656,6 +657,7 @@ body {
   text-align: left;
   font-size: 25px;
   padding: 0 20px 0 20px;
+  color: black;
 }
 
 /* ---------------------------------- */
@@ -829,4 +831,15 @@ body {
 .localizacao {
   padding: 50px 20px;
   text-align: center;
+  background-color:#0b1e45;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2); 
+}
+
+/* ---------------------------------- */
+/* ------ Estilos do Esplanada ------ */
+/* ---------------------------------- */
+
+.imagem-esplanada {
+    width: 100%;
+    border-radius: 100%;
 }
