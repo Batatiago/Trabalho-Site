@@ -178,7 +178,7 @@ body {
     box-shadow: #173c75 0px -4px 6px 5px;
 }
 
-#easterEgg {
+.easterEgg {
     position: relative; 
     display: flex;
     align-items: center;
