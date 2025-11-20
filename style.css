@@ -696,6 +696,13 @@ html {
   color: black;
 }
 
+#img-propaganda {
+  height: 500px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #001f3f;
+}
+
 /* ---------------------------------- */
 /* ------ Estilos do Pontão ------- */
 /* ---------------------------------- */
