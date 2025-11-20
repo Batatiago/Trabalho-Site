@@ -304,7 +304,7 @@ html {
   border-radius: 10px;
   max-width: 800px;
   margin: 20px auto;
-  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 30px black;
   font-size: 45px;
 }
 
@@ -678,7 +678,14 @@ html {
 /* ------ Estilos do Catedral ------- */
 /* ---------------------------------- */
 
-#catedralBody {
+#catedral-body {
+  background-image: url("../Trabalho-Site/img/img_catedral/catedral_background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#catedral-block-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -687,7 +694,7 @@ html {
   padding: 20px;
 }
 
-#catedralBody p {
+#catedral-block-title p {
   max-width: 800px;
   background-color: aliceblue;
   padding: 15px;
