@@ -1,154 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zoologico</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="icon" sizes="32x32"
-            href="../img/img_zoologico/ReptileEye2.webp">
-    </head>
-    <body>
-        <header id="cabeçalho">
-      <div id="logo">
-        <a href="../index.html">
-          <img src="../img/img_home/brasao-do-distrito-federal.png"
-          alt="logo do Distrito Federal" width="100" height="100">
-        </a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoologico</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" sizes="32x32" href="../img/img_zoologico/ReptileEye2.webp">
+</head>
+
+<body>
+  <header id="cabeçalho">
+    <div id="logo">
+      <a href="../index.html">
+        <img src="../img/img_home/brasao-do-distrito-federal.png" alt="logo do Distrito Federal" width="100"
+          height="100">
+      </a>
+    </div>
+
+    <input type="checkbox" id="menuFlutuanteCheckbox">
+    <label for="menuFlutuanteCheckbox" id="menu-overlay"></label>
+    <label for="menuFlutuanteCheckbox" id="menuFlutuante">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </label>
+
+    <nav id="linksHeader">
+      <a href="https://ouvidoria.df.gov.br/canal-atendimento-162" target="_blank">Contato</a>
+      <a href="nicolandia.html">Nicolândia</a>
+      <a href="planetario.html">Planetário</a>
+      <a href="zoologico.html">Zoológico</a>
+      <a href="catedral.html">Catedral</a>
+      <a href="pontao.html">Pontão</a>
+      <a href="eslplanada.html">Esplanada</a>
+    </nav>
+  </header>
+  <h1 class="zoo-title">Zoologico de Brasília</h1>
+  <div id="boxAnimals">
+    <a id="linkAves" href="zoologicoPages/Aves.html">
+      <div class="boxAves">
+        <img class="boxImageAves" src="../img/img_zoologico/Hawk.png" alt>
+        <p class="boxText"> Aves </p>
       </div>
+    </a>
 
-      <input type="checkbox" id="menuFlutuanteCheckbox">
-      <label for="menuFlutuanteCheckbox" id="menu-overlay"></label>
-      <label for="menuFlutuanteCheckbox" id="menuFlutuante">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </label>
-
-      <nav id="linksHeader">
-        <a href="https://ouvidoria.df.gov.br/canal-atendimento-162"
-          target="_blank">Contato</a>
-        <a href="nicolandia.html">Nicolândia</a>
-        <a href="planetario.html">Planetário</a>
-        <a href="zoologico.html">Zoológico</a>
-        <a href="catedral.html">Catedral</a>
-        <a href="pontao.html">Pontão</a>
-        <a href="eslplanada.html">Esplanada</a>
-      </nav>
-    </header>
-        <h1 class="zoo-title">Zoologico de Brasília</h1>
-        <div id="boxAnimals">
-            <a id="linkAves" href="zoologicoPages/Aves.html">
-                <div class="boxAves">
-                    <img class="boxImageAves"
-                        src="../img/img_zoologico/Hawk.png"
-                        alt>
-                    <p class="boxText"> Aves </p>
-                </div></a>
-
-            <a id="linkMamiferos" href="zoologicoPages/Mamiferos.html">
-                <div class="boxMammals">
-                    <p class="boxText"> Mamíferos </p>
-                    <img class="boxImageMammals"
-                        src="../img/img_zoologico/LoboGuara.png" alt>
-                </div></a>
-
-            <a id="linkReptiles" href="zoologicoPages/Reptiles.html">
-                <div class="boxReptiles">
-                    <img class="boxImageReptiles"
-                        src="../img/img_zoologico/RainbowBoaRaw.webp" alt>
-                    <p class="boxText"> Répteis </p>
-                </div></a>
-
-            <a id="linkAnfibios" href="zoologicoPages/Anfibios.html">
-                <div class="boxAmphibious">
-                    <p class="boxText"> Anfíbios </p>
-                    <img class="boxImageAmphibious"
-                        src="../img/img_zoologico/SapoFlecha.png" alt>
-                </div></a>
-
-            <a id="linkArtropodes" href="zoologicoPages/Artropodes.html">
-                <div class="boxArthropods">
-                    <img class="boxImageArthropods"
-                        src="../img/img_zoologico/Tatuzinho.png" alt>
-                    <p class="boxText"> Artrópode </p>
-                </div></a>
-
-            <a id="linkBorboletas" href="zoologicoPages/Borboletas.html">
-                <div class="boxButterflies">
-                    <p class="boxText"> Borboletas </p>
-                    <img class="boxImageAmphibious"
-                        src="../img/img_zoologico/BlueMorph.png" alt>
-                </div></a>
-        </div>
-        <section class="localizacao">
-            <h2>Localização</h2>
-            <p>O Zoológico de Brasília fica na Candangolândia, Brasília -
-                DF.</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6346.936055699695!2d-47.93999109593458!3d-15.847656180358086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2fc1bfbc94fb%3A0xc5b1b357dff05246!2sZool%C3%B3gico%20-%20Candangol%C3%A2ndia%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1763388320665!5m2!1spt-BR!2sbr"
-                width="90%" height="400" style="border:0;" allowfullscreen
-                loading="lazy">
-            </iframe>
-        </section>
-        <footer id="footer-content">
-        <div>
-          <h5>Trabalho desenvolvido por Alunos da Faculdade SENAC -
-            Brasília/DF</h5>
-          <br>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/Batatiago"
-              target="_blank">Tiago de Andrade Lima </a>
-            <img
-              class="imgHover"
-              src="../img/img_home/fortnite-dance-anime.gif"
-              alt="aniaDance">
-          </div>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/AndreBlackDragon"
-              target="_blank">Andre Luis Macedo Nascimento</a>
-            <img
-              class="imgHover"
-              src="../img/img_home/ToothlessDancing.gif"
-              alt="ToothlessDancing">
-          </div>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/DouglasRochaTech"
-              target="_blank">Douglas Rocha Vasco</a>
-            <img
-              class="imgHover"
-              src="../img/img_home/chihuahua dancando.gif"
-              alt="chihuahuaDance">
-          </div>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/FoxYokai"
-              target="_blank">Jonas Santos Barbosa</a>
-            <img
-              class="imgHover"
-              src="../img/img_home/tales.gif"
-              alt="talesDance">
-          </div>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/Rapha3lmendess"
-              target="_blank">Raphael Alves Mendes</a>
-            <img
-              class="imgHover"
-              src="../img/img_home/yoshi-dancing-egg-gif-unscreen.gif"
-              alt="yoshiDance">
-          </div>
-          <div class="easterEgg">
-            <a class="footerLink" href="https://github.com/Dino860"
-              target="_blank">Calebe Bezerra Feitosa</a>
-            <img
-              class="imgHover"
-              src="../img/img_home/dancing-dino.gif" alt="dancingDino">
-          </div>
-        </div>
+    <a id="linkMamiferos" href="zoologicoPages/Mamiferos.html">
+      <div class="boxMammals">
+        <p class="boxText"> Mamíferos </p>
+        <img class="boxImageMammals" src="../img/img_zoologico/LoboGuara.png" alt>
       </div>
-      <div>
-        <p id="rights">© 2025 DF Checkpoints. Todos os direitos
-          reservados.</p>
+    </a>
+
+    <a id="linkReptiles" href="zoologicoPages/Reptiles.html">
+      <div class="boxReptiles">
+        <img class="boxImageReptiles" src="../img/img_zoologico/RainbowBoaRaw.webp" alt>
+        <p class="boxText"> Répteis </p>
       </div>
-    </footer>
-    </body>
+    </a>
+
+    <a id="linkAnfibios" href="zoologicoPages/Anfibios.html">
+      <div class="boxAmphibious">
+        <p class="boxText"> Anfíbios </p>
+        <img class="boxImageAmphibious" src="../img/img_zoologico/SapoFlecha.png" alt>
+      </div>
+    </a>
+
+    <a id="linkArtropodes" href="zoologicoPages/Artropodes.html">
+      <div class="boxArthropods">
+        <img class="boxImageArthropods" src="../img/img_zoologico/Tatuzinho.png" alt>
+        <p class="boxText"> Artrópode </p>
+      </div>
+    </a>
+
+    <a id="linkBorboletas" href="zoologicoPages/Borboletas.html">
+      <div class="boxButterflies">
+        <p class="boxText"> Borboletas </p>
+        <img class="boxImageAmphibious" src="../img/img_zoologico/BlueMorph.png" alt>
+      </div>
+    </a>
+  </div>
+  <section class="localizacao">
+    <h2>Localização</h2>
+    <p>O Zoológico de Brasília fica na Candangolândia, Brasília -
+      DF.</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6346.936055699695!2d-47.93999109593458!3d-15.847656180358086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2fc1bfbc94fb%3A0xc5b1b357dff05246!2sZool%C3%B3gico%20-%20Candangol%C3%A2ndia%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1763388320665!5m2!1spt-BR!2sbr"
+      width="90%" height="400" style="border:0;" allowfullscreen loading="lazy">
+    </iframe>
+  </section>
+  <footer id="footer-content">
+    <div>
+      <h5>Trabalho desenvolvido por Alunos da Faculdade SENAC -
+        Brasília/DF</h5>
+      <br>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/Batatiago" target="_blank">Tiago de Andrade Lima </a>
+        <img class="imgHover" src="../img/img_home/fortnite-dance-anime.gif" alt="aniaDance">
+      </div>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/AndreBlackDragon" target="_blank">Andre Luis Macedo
+          Nascimento</a>
+        <img class="imgHover" src="../img/img_home/ToothlessDancing.gif" alt="ToothlessDancing">
+      </div>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/DouglasRochaTech" target="_blank">Douglas Rocha Vasco</a>
+        <img class="imgHover" src="../img/img_home/chihuahua dancando.gif" alt="chihuahuaDance">
+      </div>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/FoxYokai" target="_blank">Jonas Santos Barbosa</a>
+        <img class="imgHover" src="../img/img_home/tales.gif" alt="talesDance">
+      </div>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/Rapha3lmendess" target="_blank">Raphael Alves Mendes</a>
+        <img class="imgHover" src="../img/img_home/yoshi-dancing-egg-gif-unscreen.gif" alt="yoshiDance">
+      </div>
+      <div class="easterEgg">
+        <a class="footerLink" href="https://github.com/Dino860" target="_blank">Calebe Bezerra Feitosa</a>
+        <img class="imgHover" src="../img/img_home/dancing-dino.gif" alt="dancingDino">
+      </div>
+    </div>
+    </div>
+    <div>
+      <p id="rights">© 2025 DF Checkpoints. Todos os direitos
+        reservados.</p>
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -400,7 +400,7 @@ html {
 }
 
 .link-atracao {
-  text-decoration: none; 
+  text-decoration: none;
   color: inherit;
 }
 
@@ -900,41 +900,40 @@ html {
   background-position: center center;
 }
 
+.blo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: 5%;
+  justify-content: center;
+  border-radius: 20px;
+}
+
 /* imagem */
-.imagem-esplanada {
-  width: 500px;
+.blo img {
+  width: 450px;
   height: 333.33px;
   border-radius: 20px;
 }
 
 /* texto */
-.bloco-esplanada {
-  margin: 50px auto;
-  flex-wrap: unset;
+
+.blo h1 {
+  background: linear-gradient(to left, blue, black);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 35px;
 }
 
-.cabeca {
-  background-color: cornsilk;
-  height: 333.33px;
-  border-radius: 40px 40px 10px 40px;
-  display: inline-block;
-  width: 100%;
-}
-
-.titulo {
-  color: cornsilk;
-  background-color: black;
-  border-radius: 47px 40px 0 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.texto {
+.tex1 {
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: medium;
+  font-size: 14px;
+  text-align: center
 }
 
-.texto2 {
+.tex2 {
   color: black;
   font-style: unset;
 }
