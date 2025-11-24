@@ -399,6 +399,11 @@ html {
   border-radius: 15px;
 }
 
+.link-atracao {
+  text-decoration: none; 
+  color: inherit;
+}
+
 /* ---------------------------------- */
 /* ----- Estilos do Zoológico ------- */
 /* ---------------------------------- */
